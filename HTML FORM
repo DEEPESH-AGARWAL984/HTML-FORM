@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title> 
+		HTML FORM
+	</title>
+</head>
+
+	<body>
+	<form action = "https://www.google.com/search" method = "GET">
+	Name: <input type = "text" id = "Name" name = "q "placeholder = "Enter your name:">
+	<br><br>
+	Phone Number: <input type = "password" id = "pass" name = "pwd" placeholder = "Enter your Password:"> 
+ 	<br><br>
+
+	<!-- Button -->
+	<button type = "button"> Submit</Button>
+	<br><br>
+
+	<!-- Radio Button -->
+	Gender: 
+	<input type = "radio" id ="gender" value = "male" name = "grp1">Male
+	<input type = "radio" id ="gender" value = "female" name = "grp1">Female
+	<input type = "radio" id ="gender" value = "others" name = "grp1">Others
+	
+	<br><br>
+	<!-- CheckBox Button -->
+	<input type = "checkbox" id ="gender" value = "cricket" name = "ch1">Cricket
+	<input type = "checkbox" id ="gender" value = "football" name = "ch2">Football
+	
+	<!-- Reset Button -->
+	<input type = "reset"> 
+	
+	</form>
+ 	</body>
+</html>
